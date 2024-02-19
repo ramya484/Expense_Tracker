@@ -1,0 +1,36 @@
+body {
+  color: red;
+  background-color: #E9F7EF ;
+  font-size: 20px;
+  
+}
+
+#expenses {
+  width: 600px;
+  margin: 20px auto;
+  background-color:aqua;
+  font-size: 1rem;
+  
+}
+
+#expenses table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+#expenses th, #expenses td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+#expenses th {
+  background-color:bisque;
+}
+
+#expense-form input[type="text"],
+#expense-form input[type="number"],
+#expense-form button {
+  margin-bottom: 10px;
+}
